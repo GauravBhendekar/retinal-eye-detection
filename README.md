@@ -11,7 +11,77 @@ This project leverages deep learning and computer vision to assist in the automa
 - 🖼️ Upload retinal eye images via a web interface
 
 - 🤖 Multiple deep learning models used:
+  
 		-MobileNet
 		-ResNet
 		-EfficientNet
 		-Custom CNN
+- 🧠 Model comparison to select the best prediction
+
+- 📊 Displays:
+
+  		-Predicted disease class
+
+  		-Confidence percentage
+
+		-Best performing model
+
+## 🧠 Technology Stack
+### Frontend
+
+-React (Vite)
+
+-HTML5, CSS3, JavaScript
+
+-Fetch API for backend communication
+
+### Backend
+
+-Python
+
+-Flask
+
+-TensorFlow
+
+-NumPy
+
+
+## 📂 Project Structure
+retinal-eye-detection/
+│
+├── backend/
+│   ├── app.py               # Flask backend API
+│   ├── requirement.txt      # Python dependencies
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx          # Main React component
+│   │   ├── App.css
+│   │   ├── main.jsx
+│   │   └── assets/
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+│
+├── public/
+│
+├── .gitignore
+└── README.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
