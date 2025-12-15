@@ -68,6 +68,57 @@ This project leverages deep learning and computer vision to assist in the automa
 		├── .gitignore
 		└── README.md
 
+##⚙️ How to Run the Project Locally
+1️. Clone the Repository
+			- git clone https://github.com/GauravBhendekar/retinal-eye-detection.git			
+			- cd retinal-eye-detection
+
+2. Download Trained ML Models
+
+⚠️ Important Note
+
+The trained deep learning model files are not included in this repository due to GitHub file size limitations.
+
+📥 Download models from Google Drive:
+🔗 https://drive.google.com/drive/folders/17zDbCcgT--7K1-GNqrE84TQnPY-F-0iS?usp=sharing
+
+After downloading, place all model files inside:
+
+	backend/
+
+3. Run Backend (Flask Server)
+	
+	-cd backend
+	-pip install -r requirement.txt
+	-python app.py
+Backend will start at:
+
+	-http://127.0.0.1:5000
+
+4. Run Frontend (React Application)
+
+	-http://localhost:5173
+
+## 🧪 Disease Classes
+
+-CNV – Choroidal Neovascularization
+
+-DME – Diabetic Macular Edema
+
+-DRUSEN – Accumulation of extracellular material
+
+-NORMAL – Healthy retina
+
+⚠️ Notes & Limitations
+
+-This application is intended for educational and research purposes only
+
+-Not approved for clinical or medical diagnosis
+
+-Model accuracy depends on image quality and training dataset
+
+-Trained model files are excluded using .gitignore
+   
 
 
 
