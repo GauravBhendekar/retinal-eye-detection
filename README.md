@@ -29,21 +29,21 @@ This project leverages deep learning and computer vision to assist in the automa
 ## 🧠 Technology Stack
 ### Frontend
 
--React (Vite)
+- React (Vite)
 
--HTML5, CSS3, JavaScript
+- HTML5, CSS3, JavaScript
 
--Fetch API for backend communication
+- Fetch API for backend communication
 
 ### Backend
 
--Python
+- Python
 
--Flask
+- Flask
 
--TensorFlow
+- TensorFlow
 
--NumPy
+- NumPy
 
 
 ## 📂 Project Structure
@@ -70,6 +70,7 @@ This project leverages deep learning and computer vision to assist in the automa
 
 ##⚙️ How to Run the Project Locally
 1️. Clone the Repository
+
 			- git clone https://github.com/GauravBhendekar/retinal-eye-detection.git			
 			- cd retinal-eye-detection
 
@@ -80,7 +81,8 @@ This project leverages deep learning and computer vision to assist in the automa
 The trained deep learning model files are not included in this repository due to GitHub file size limitations.
 
 📥 Download models from Google Drive:
-🔗 https://drive.google.com/drive/folders/17zDbCcgT--7K1-GNqrE84TQnPY-F-0iS?usp=sharing
+	
+	- 🔗 https://drive.google.com/drive/folders/17zDbCcgT--7K1-GNqrE84TQnPY-F-0iS?usp=sharing
 
 After downloading, place all model files inside:
 
@@ -88,36 +90,36 @@ After downloading, place all model files inside:
 
 3. Run Backend (Flask Server)
 	
-	-cd backend
-	-pip install -r requirement.txt
-	-python app.py
+	- cd backend
+	- pip install -r requirement.txt
+	- python app.py
 Backend will start at:
 
-	-http://127.0.0.1:5000
+	- http://127.0.0.1:5000
 
 4. Run Frontend (React Application)
 
-	-http://localhost:5173
+	- http://localhost:5173
 
 ## 🧪 Disease Classes
 
--CNV – Choroidal Neovascularization
+- CNV – Choroidal Neovascularization
 
--DME – Diabetic Macular Edema
+- DME – Diabetic Macular Edema
 
--DRUSEN – Accumulation of extracellular material
+- DRUSEN – Accumulation of extracellular material
 
--NORMAL – Healthy retina
+- NORMAL – Healthy retina
 
 ⚠️ Notes & Limitations
 
--This application is intended for educational and research purposes only
+- This application is intended for educational and research purposes only
 
--Not approved for clinical or medical diagnosis
+- Not approved for clinical or medical diagnosis
 
--Model accuracy depends on image quality and training dataset
+- Model accuracy depends on image quality and training dataset
 
--Trained model files are excluded using .gitignore
+- Trained model files are excluded using .gitignore
    
 
 
