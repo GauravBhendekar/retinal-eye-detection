@@ -82,7 +82,7 @@ The trained deep learning model files are not included in this repository due to
 
 📥 Download models from Google Drive:
 	
-	- 🔗 https://drive.google.com/drive/folders/17zDbCcgT--7K1-GNqrE84TQnPY-F-0iS?usp=sharing
+	🔗 https://drive.google.com/drive/folders/17zDbCcgT--7K1-GNqrE84TQnPY-F-0iS?usp=sharing
 
 After downloading, place all model files inside:
 
@@ -90,16 +90,17 @@ After downloading, place all model files inside:
 
 3. Run Backend (Flask Server)
 	
-	- cd backend
-	- pip install -r requirement.txt
-	- python app.py
+		- cd backend
+		- pip install -r requirement.txt
+		- python app.py
+
 Backend will start at:
 
 	- http://127.0.0.1:5000
 
 4. Run Frontend (React Application)
 
-	- http://localhost:5173
+	   - http://localhost:5173
 
 ## 🧪 Disease Classes
 
