@@ -12,9 +12,6 @@ This project leverages deep learning and computer vision to assist in the automa
 
 - 🤖 Multiple deep learning models used:
 		-MobileNet
-
-		- ResNet
-
-		- EfficientNet
-
-		- Custom CNN
+		-ResNet
+		-EfficientNet
+		-Custom CNN
