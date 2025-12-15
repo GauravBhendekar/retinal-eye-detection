@@ -47,26 +47,26 @@ This project leverages deep learning and computer vision to assist in the automa
 
 
 ## 📂 Project Structure
-retinal-eye-detection/
-│
-├── backend/
-│   ├── app.py               # Flask backend API
-│   ├── requirement.txt      # Python dependencies
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx          # Main React component
-│   │   ├── App.css
-│   │   ├── main.jsx
-│   │   └── assets/
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-│
-├── public/
-│
-├── .gitignore
-└── README.md
+		retinal-eye-detection/
+		│
+		├── backend/
+		│   ├── app.py               # Flask backend API
+		│   ├── requirement.txt      # Python dependencies
+		│
+		├── frontend/
+		│   ├── src/
+		│   │   ├── App.jsx          # Main React component
+		│   │   ├── App.css
+		│   │   ├── main.jsx
+		│   │   └── assets/
+		│   ├── index.html
+		│   ├── package.json
+		│   └── vite.config.js
+		│
+		├── public/
+		│
+		├── .gitignore
+		└── README.md
 
 
 
