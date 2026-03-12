@@ -30,9 +30,7 @@ This project leverages deep learning and computer vision to assist in the automa
 ### Frontend
 
 - React (Vite)
-
 - HTML5, CSS3, JavaScript
-
 - Fetch API for backend communication
 
 ### Backend
